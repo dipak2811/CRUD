@@ -2,7 +2,7 @@ Steps to Run CRUD project:-
 
 1) Demo Link:- https://dipak2811.github.io/CRUD/Index.html
 
-2) Need to clone git repository and checkout in Single-Page-Application-Using-Router branch
+2) Need to clone git repository and checkout in CRUD branch
 
       git clone https://github.com/dipak2811/simform_training2023.git
 
