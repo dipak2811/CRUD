@@ -197,8 +197,8 @@ search_item = () => {
             let sorted = [];
             let regex = new RegExp(search_val, "i")
             for (let element of productlist) {
-                const item = element.product_name;
-                if (regex.test(item)) {
+                const item = element;
+                if (regex.test(item.product_name) || regex.test(item.product_id)) {
                     sorted.push(element);
                 }
             }
